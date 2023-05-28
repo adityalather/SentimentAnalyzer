@@ -1,9 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import CodeIcon from '@material-ui/icons/Code';
 
 const headerStyles = Object.freeze({
     linkStyles: Object.freeze({
@@ -17,16 +15,16 @@ export default function Header() {
         <AppBar position="static">
             <Toolbar>
                 <IconButton color="inherit" aria-label="Menu">
-                    <a
-                        href="https://github.com/kellyi/react-sentiment-analyzer"
+                    <a  variant="h6"
+                        href="https://www.linkedin.com/in/aditya-lather/"
                         style={headerStyles.linkStyles}
                     >
-                        <CodeIcon />
+                        <p> Aditya Lather, 2K20/IT/09</p>
                     </a>
                 </IconButton>
-                <Typography variant="h6" color="inherit">
-                    react-sentiment-analyzer
-                </Typography>
+                <p color="inherit">
+                <font size="+3">Sentiment Analyzer</font>
+                </p>
             </Toolbar>
         </AppBar>
     );

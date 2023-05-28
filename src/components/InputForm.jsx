@@ -51,11 +51,11 @@ const inputFormStyles = Object.freeze({
 function InputForm({
     value,
     analyzeInputSentiment,
-    clearInput,
+    
     sentiment,
     toxicity,
     fetching,
-    error,
+    
     analyzeInputToxicity,
 }) {
     const reportSection = (() => {
